@@ -1,1 +1,22 @@
 /* styles go here */
+
+.head {
+  text-align: center;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.container > .form-field:last-child {
+  margin-bottom: 0;
+}
+
+#cars {
+  display: inline;
+}
